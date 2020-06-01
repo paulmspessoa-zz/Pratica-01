@@ -1,7 +1,7 @@
 body {
   height: 100%;
   width: 400px;
-  margin: 0 auto;
+  margin: 10% auto;
   font-family: Consolas;
 }
 
@@ -51,4 +51,21 @@ body {
 }
 a {
   text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+  .quadro {
+    margin: 40% auto;
+    padding: 10px 10px 50px 10px;
+  }
+
+  body {
+    height: 90%;
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+.range {
+  cursor: pointer;
 }
