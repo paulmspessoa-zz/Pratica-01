@@ -1,0 +1,54 @@
+body {
+  height: 100%;
+  width: 400px;
+  margin: 0 auto;
+  font-family: Consolas;
+}
+
+.flex-row {
+  text-align: justify;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.label {
+  min-width: 120px;
+}
+
+.range {
+  min-width: 100px;
+}
+
+.text {
+  margin-left: 10px;
+  width: 30px;
+  text-align: center;
+}
+
+.square {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 90%;
+  width: 100px;
+  height: 100px;
+  border: 2px solid gray;
+  margin-top: 20px;
+}
+
+.quadro {
+  width: 300px;
+  text-align: center;
+  margin: 50px;
+  padding: 30px 30px 30px 30px;
+  border-radius: 10px;
+  background-color: gainsboro;
+}
+
+.redes {
+  text-align: center;
+  position: unset;
+}
+a {
+  text-decoration: none;
+}
